@@ -1,3 +1,106 @@
+# 🦅 YOLO Object Detection – Hackathon Project
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Framework](https://img.shields.io/badge/Framework-PyTorch-orange.svg)
+![YOLO](https://img.shields.io/badge/Model-YOLOv5/YOLOv8-green.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
+Real-time **object detection** using the YOLO (You Only Look Once) model, built as part of a hackathon challenge.
+The project supports **custom datasets**, **training**, **evaluation**, and **inference on real-world images/videos**.
+
+---
+
+## 📂 Repository Structure
+
+```
+Hackathon2_scripts/
+│── check.py                 # Quick test script
+│── hackathon2_train_3/      # Training dataset
+│── hackathon2_test3/        # Testing dataset
+│── models/                  # YOLO weights & configs
+│── results/                 # Outputs & predictions
+│── requirements.txt         # Dependencies
+│── README.md                # Documentation
+```
+
+---
+
+## ⚙️ Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. (Optional) If using CUDA:
+
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+---
+
+## 📊 Dataset
+
+* **Training data**: `hackathon2_train_3/`
+* **Testing data**: `hackathon2_test3/`
+
+⚠️ Large datasets are **not stored directly in GitHub**. Please download from the provided links:
+
+* 🔗 [Google Drive](#)
+* 🔗 [Kaggle](#)
+
+After downloading, extract datasets into the project root.
+
+---
+
+## 🏋️ Training
+
+To train the model on the custom dataset:
+
+```bash
+python train.py --data data.yaml --weights yolov5s.pt --epochs 50 --img 640
+```
+
+---
+
+## 🔎 Inference / Testing
+
+Run object detection on the test dataset:
+
+```bash
+python detect.py --weights runs/train/exp/weights/best.pt --source hackathon2_test3/
+```
+
+Outputs will be stored in the `results/` folder.
+
+---
+
+## 📈 Results
+
+| Metric        | Value |
+| ------------- | ----- |
+| mAP@50        | XX%   |
+| Precision     | XX%   |
+| Recall        | XX%   |
+| Inference FPS | XX    |
+
+## ✨ Features
+
+* ✅ Train YOLO on a custom dataset
+* ✅ Run inference on images/videos
+* ✅ Save detection outputs with bounding boxes
+* ✅ Ready for real-time object detection
+
+
 # 🚀 StarCommand Space Station
 
 An interactive astronaut space station dashboard with an intelligent voice assistant.

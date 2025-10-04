@@ -1,6 +1,118 @@
-# Getting Started with Create React App
+# 🚀 StarCommand Space Station
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive astronaut space station dashboard with an intelligent voice assistant.
+
+## ✨ Features
+
+- **Voice Assistant**: Click the microphone button and speak commands
+- **Speech Recognition**: Understands natural language commands
+- **Text-to-Speech**: Assistant responds with voice
+- **Real-time Dashboard**: Monitor oxygen, power, temperature
+- **Task Management**: Track mission tasks and procedures
+- **Emergency Protocols**: Quick access to safety procedures
+
+## 🎤 Voice Commands
+
+### Navigation
+- "Dashboard" / "Home" / "Main screen"
+- "System status" / "Check systems"
+- "Tasks" / "Task manager" / "To do"
+- "Procedures" / "Protocols"
+- "Assessment" / "Status report"
+
+### System Information
+- "Oxygen" / "O2" / "Air quality"
+- "Power" / "Battery" / "Energy"
+- "Temperature" / "Climate"
+- "Pressure" / "Atmospheric"
+- "Communication" / "Comms" / "Signal"
+- "Navigation" / "Position" / "Location"
+- "All systems" / "Full status"
+- "Crew health" / "Medical"
+- "Warnings" / "Alerts" / "Problems"
+
+### Time & Date
+- "What time is it?"
+- "What's the date?" / "What day is today?"
+
+### Actions
+- "Emergency" / "Alert" / "Mayday"
+- "Lights on" / "Turn on lights"
+- "Lights off" / "Turn off lights"
+- "Lock" / "Secure station"
+- "Unlock" / "Unsecure"
+
+### Information
+- "Mission" / "Objective"
+- "Weather" / "External conditions"
+- "Fuel" / "Propellant"
+
+### Social & Fun
+- "Hello" / "Hi" / "Hey"
+- "Good morning" / "Good night"
+- "How are you?" / "Who are you?"
+- "Thank you" / "Thanks"
+- "Tell me a joke"
+- "Help" / "What can you do?"
+- "Repeat" / "Say that again"
+
+### Space & Environment
+- "Where am I?" / "Where are we?"
+- "How fast?" / "Speed"
+- "How high?" / "Altitude"
+- "How long?" / "Mission duration"
+- "Earth" / "See Earth" / "View"
+- "Stars" / "See stars"
+- "Moon" / "See moon"
+- "Sun" / "Solar activity"
+- "Radiation" / "Exposure"
+- "Orbit" / "Trajectory"
+- "Gravity" / "Microgravity"
+
+### Life Support & Resources
+- "Water" / "H2O"
+- "Food" / "Supplies"
+- "Sleep" / "Rest"
+- "Exercise" / "Workout"
+- "Shower" / "Hygiene"
+- "Toilet" / "Bathroom"
+
+### Activities & Operations
+- "Experiment" / "Research" / "Science"
+- "Contact" / "Call" / "Message"
+- "Spacewalk" / "EVA"
+- "Docking" / "Arrival"
+- "Music" / "Play music"
+- "Movie" / "Video"
+
+### Emotional Support
+- "Family" / "Home"
+- "Scared" / "Afraid" / "Worried"
+- "Lonely" / "Alone"
+- "Beautiful" / "Amazing" / "Incredible"
+
+### AI & Object Detection System
+- "Detect" / "Detection" / "Scan"
+- "Oxygen tank" / "O2 tank"
+- "Nitrogen tank" / "N2 tank"
+- "First aid" / "Medical kit"
+- "Fire alarm" / "Smoke detector"
+- "Safety panel" / "Control panel"
+- "Emergency phone" / "Intercom"
+- "Fire extinguisher"
+- "Safety objects" / "Safety equipment"
+- "Camera" / "Vision" / "Visual system"
+- "AI system" / "Artificial intelligence"
+- "Anomaly" / "Unusual" / "Strange"
+- "Hidden objects" / "Obscured"
+- "Lighting" / "Brightness" / "Visibility"
+- "Tracking" / "Monitor objects"
+- "Safety check" / "Safety inspection"
+- "Missing" / "Lost" / "Cannot find"
+- "Floating" / "Loose objects"
+- "Hazard" / "Danger" / "Risk"
+
+## 🚀 Getting Started
 
 ## Available Scripts
 

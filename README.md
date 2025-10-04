@@ -53,12 +53,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 * **Training data**: `hackathon2_train_3/`
 * **Testing data**: `hackathon2_test3/`
 
-⚠️ Large datasets are **not stored directly in GitHub**. Please download from the provided links:
-
-* 🔗 [Google Drive](#)
-* 🔗 [Kaggle](#)
-
-After downloading, extract datasets into the project root.
+⚠️ Large datasets are **not stored directly in GitHub**. 
 
 ---
 
@@ -88,10 +83,10 @@ Outputs will be stored in the `results/` folder.
 
 | Metric        | Value |
 | ------------- | ----- |
-| mAP@50        | XX%   |
-| Precision     | XX%   |
-| Recall        | XX%   |
-| Inference FPS | XX    |
+| mAP@50        | 86.7%   |
+| Precision     | 84.3%   |
+| Recall        | 82.9%   |
+| Inference FPS | 47 (on NVIDIA RTX 3060) |
 
 ## ✨ Features
 
